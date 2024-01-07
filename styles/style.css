@@ -57,3 +57,9 @@ p{
 .article p .imp{
     font-size: 5em;
 }
+#cowlala{
+    background-color: chocolate;
+    margin: 60px auto;
+    border-width: 10px;
+    border-style: groove;
+}
