@@ -14,6 +14,8 @@
     background-image: url('../images/cow.jpg');
     background-size: cover;
     height:100vh
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  
 }
 .hero h1{ 
      /* in hero */
@@ -26,7 +28,7 @@
     font-weight: 700px;
     word-spacing: 0px;
     position: absolute;
-  
+    
 }
        
 
@@ -41,7 +43,7 @@ p{
     
     width: 80%;
     margin: 60px auto;
-    background-color: bisque;
+    background: linear-gradient(pink , blues);
     padding: 100px;
     border-width: 15px;
     border-style: groove;
@@ -57,9 +59,13 @@ p{
 .article p .imp{
     font-size: 5em;
 }
-#cowlala{
-    background-color: chocolate;
+#cowlala{adding: 200px;
+    background: linear-gradient(pink blue);
     margin: 60px auto;
     border-width: 10px;
     border-style: groove;
+    font-size: large;
+}
+.lalacow{
+    display: flex;
 }
